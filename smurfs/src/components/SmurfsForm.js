@@ -11,8 +11,8 @@ const SmurfsForm = (props) => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    props.postSmurf(smurf);
-    document.getElementById("SmurfsForm").reset();
+    props.postSmurfs(smurf);
+    document.getElementById("smurfForm").reset();
   };
 
   const inputHandler = (e) => {
@@ -22,6 +22,7 @@ const SmurfsForm = (props) => {
 
   return (
     <div className="form">
+      <h1>SMURFS Form</h1>
       <form id="smurfForm">
         <input
           type="text"
@@ -54,7 +55,6 @@ const SmurfsForm = (props) => {
           Add New Smurf
         </button>
       </form>
-      <h1>Smurfs Form</h1>
     </div>
   );
 };

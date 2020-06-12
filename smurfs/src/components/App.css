@@ -1,3 +1,63 @@
 .App {
   text-align: center;
+  background: url("../assets/bg.jpg") no-repeat center center/cover;
+  height: 100vh;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.form {
+  background-color: rgb(101, 206, 255);
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.input,
+.btn {
+  padding: 1rem;
+  margin-left: 5rem;
+  border-radius: 2%;
+  font-size: 1rem;
+}
+
+.btn {
+  background-color: rgba(77, 5, 232, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 5%;
+}
+
+.btn:hover {
+  background-color: rgba(0, 230, 64, 1);
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0.2rem 0.2rem 1rem 0.2rem rgba(243, 241, 239, 0.8);
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.card {
+  background-color: rgb(39, 122, 247);
+  margin: 2rem;
+  border-radius: 5%;
+  width: 12rem;
+  height: 12rem;
+}
+
+.card:hover {
+  box-shadow: 0.2rem 0.2rem 1rem 0.2rem rgba(243, 241, 239, 0.8);
 }

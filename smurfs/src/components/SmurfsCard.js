@@ -1,9 +1,11 @@
 import React from "react";
 
-const SmurfsCard = () => {
+const SmurfsCard = ({ smurfs }) => {
   return (
-    <div>
-      <h2>Smurfs Card</h2>
+    <div className="card">
+      <h2>{smurfs.name}</h2>
+      <p>Age: {smurfs.age}</p>
+      <p>Height: {smurfs.height}cm</p>
     </div>
   );
 };
